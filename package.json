@@ -1,0 +1,20 @@
+{
+  "name": "tvshow-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that sends daily TV show updates",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "puppeteer": "^21.10.0",
+    "node-schedule": "^2.1.1",
+    "dotenv": "^16.4.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+} 
